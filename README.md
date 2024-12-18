@@ -29,3 +29,13 @@ Follow these steps to set up and run the project locally:
    ```bash
    git clone <https://github.com/pramo22/Assignment>
    cd assignment
+
+## Project set-up:
+### Set up a Virtual Environment
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+
+
+
