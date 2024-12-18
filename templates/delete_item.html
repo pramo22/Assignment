@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/delete.css' %}">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    </head>
+    <body class="m-5">
+        <h1>Confirm delete!</h1>
+
+        <div id="delete-wrapper">
+            <p style="text-align: center;">Are You sure You want to delete?</p>
+            <p style="font-weight: bold;text-align:center">Item name:  {{items.name}}</p>
+            <div class="button-wrapper">
+                <form method="post">
+                    {% csrf_token %}
+                    <input class="btn btn-danger danger-button" type="submit" value="Delete">
+                </form>
+                <a style="color: #fff;" class="btn btn-info" href="{% url 'home' %}">&#x2190 Back to Home</a>
+            </div>
+        </div>
+    </body>
+</html>
