@@ -37,5 +37,3 @@ Follow these steps to set up and run the project locally:
    source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 
-
-
