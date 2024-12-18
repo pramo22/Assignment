@@ -98,3 +98,4 @@ Follow these steps to set up and run the project locally:
 Open the application in your browser at http://127.0.0.1:8000/home/.
 
 ## Assignment Documentation
+![em_webdev_assignment_dec2024](https://github.com/pramo22/Assignment/blob/main/em_webdev_assignment_dec2024.doc)
